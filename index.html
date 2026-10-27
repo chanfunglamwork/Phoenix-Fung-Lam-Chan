@@ -309,14 +309,14 @@
           Adventurer
         </span></div>
 
-      <!-- 兩張打橫的個人大頭 黑白色照預留框架 (Landscape 16:9) -->
+     <!-- 兩張打橫的個人大頭 黑白色照預留框架 (Landscape 16:9) -->
       <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 my-2 text-left">
         
         <!-- 橫向照片 1 -->
         <div class="pearl-card p-4 rounded-3xl group">
           <div class="horizontal-photo-frame aspect-[16/9] rounded-2xl flex flex-col items-center justify-center relative overflow-hidden bg-slate-900/10">
-            <!-- 直接載入第一張照片 (Google Drive 直連高清圖源，套用黑白濾鏡) -->
-            <img src="https://lh3.googleusercontent.com/d/1wgCxCrOBBQ3nB2MW0v4YzabpgqtabTTX=w1600" alt="Phoenix, Fung Lam Chan 陳鳳琳 - Portrait 1" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 ease-out" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1wgCxCrOBBQ3nB2MW0v4YzabpgqtabTTX&amp;sz=w1600';" style="filter: none;">
+            <!-- 直接載入第一張照片 (讀取 GitHub 同資料夾內的相片檔案) -->
+            <img src="photo1.jpg" alt="Phoenix, Fung Lam Chan 陳鳳琳 - Portrait 1" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 ease-out" loading="lazy" style="filter: none;">
             
             <div class="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent pointer-events-none opacity-40 group-hover:opacity-20 transition-opacity"></div>
             
@@ -329,8 +329,8 @@
         <!-- 橫向照片 2 -->
         <div class="pearl-card p-4 rounded-3xl group">
           <div class="horizontal-photo-frame aspect-[16/9] rounded-2xl flex flex-col items-center justify-center relative overflow-hidden bg-slate-900/10">
-            <!-- 直接載入第二張照片 (Google Drive 直連高清圖源，套用黑白濾鏡) -->
-            <img src="https://lh3.googleusercontent.com/d/1VR4DAdVR5gsDPs8q4LhcZJ7yxWBAAal2=w1600" alt="Phoenix, Fung Lam Chan 陳鳳琳 - Portrait 2" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 ease-out" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null; this.src='https://drive.google.com/thumbnail?id=1VR4DAdVR5gsDPs8q4LhcZJ7yxWBAAal2&amp;sz=w1600';" style="filter: none;">
+            <!-- 直接載入第二張照片 (讀取 GitHub 同資料夾內的相片檔案) -->
+            <img src="photo2.jpg" alt="Phoenix, Fung Lam Chan 陳鳳琳 - Portrait 2" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 ease-out" loading="lazy" style="filter: none;">
             
             <div class="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent pointer-events-none opacity-40 group-hover:opacity-20 transition-opacity"></div>
 
@@ -339,7 +339,6 @@
             </span>
           </div>
         </div>
-
       </div>
 
     </section>
